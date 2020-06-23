@@ -1,8 +1,10 @@
 const express = require("express");
 const generate = require("./routes/generate");
+const cors = require("cors");
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 app.use("/api/generate", generate);
 
 const port = process.env.PORT || 3000;
