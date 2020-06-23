@@ -1,0 +1,22 @@
+{
+  "name": "wp-plugin-boilerplate-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "adm-zip": "^0.4.14",
+    "download-git-repo": "^3.0.2",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "replace": "^1.2.0",
+    "walk": "^2.3.14"
+  }
+}
