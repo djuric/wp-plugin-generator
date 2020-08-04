@@ -39,6 +39,7 @@ function slugToInstanceName(slug) {
 }
 
 module.exports = {
+  toCapitalize,
   slugToPackageName,
   slugToInstanceName,
 };
