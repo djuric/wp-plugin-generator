@@ -1,6 +1,6 @@
 let downloadGitRepo = require("download-git-repo");
 const util = require("util");
-const config = require("../../config");
+const config = require("config");
 
 downloadGitRepo = util.promisify(downloadGitRepo);
 
